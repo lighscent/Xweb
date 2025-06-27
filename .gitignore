@@ -1,0 +1,54 @@
+# Compiled executables
+*.exe
+*.out
+*.app
+webserver
+webserver.exe
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+
+# Debug files
+*.pdb
+*.ilk
+
+# Visual Studio specific files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+
+# VS Code specific files
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# Dependencies
+node_modules/
+*.dll
