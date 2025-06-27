@@ -10,18 +10,18 @@ namespace WebServerCSharp
     public class ServerInfo
     {
         public int port { get; set; }
-        public string platform { get; set; }
-        public string os { get; set; }
-        public string datetime { get; set; }
+        public string? platform { get; set; }
+        public string? os { get; set; }
+        public string? datetime { get; set; }
         public long timestamp { get; set; }
-        public string status { get; set; }
-        public string language { get; set; }
+        public string? status { get; set; }
+        public string? language { get; set; }
     }
 
     public class ApiResponse
     {
-        public ServerInfo server_info { get; set; }
-        public string message { get; set; }
+        public ServerInfo? server_info { get; set; }
+        public string? message { get; set; }
     }
 
     public class WebServer
@@ -284,14 +284,15 @@ namespace WebServerCSharp
 
     class Program
     {
-        private static WebServer server;
+        private static WebServer? server;
 
         static async Task Main(string[] args)
         {
             Console.CancelKeyPress += (sender, e) =>
             {
                 e.Cancel = true;
-                server?.Stop();
+                if (server != null)
+                    server.Stop();
             };
 
             try
