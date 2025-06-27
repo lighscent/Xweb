@@ -51,4 +51,26 @@ Release/
 
 # Dependencies
 node_modules/
+
+# .NET specific files
+bin/
+obj/
 *.dll
+*.pdb
+*.exe
+*.user
+*.suo
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.vs/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# .NET Core
+.dotnet/
