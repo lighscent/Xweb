@@ -11,6 +11,7 @@ Simple web server implementations in various programming languages. Each impleme
 | **C** | ✅ Complete | [📖 C Documentation](.docs/c.md) |
 | **C++** | ✅ Complete | [📖 C++ Documentation](.docs/cpp.md) |
 | **C#** | ✅ Complete | [📖 C# Documentation](.docs/csharp.md) |
+| **Java** | ✅ Complete | [📖 Java Documentation](.docs/java.md) |
 | **JavaScript (Node.js)** | ✅ Complete | [📖 JavaScript Documentation](.docs/js.md) |
 | **Python** | ✅ Complete | [📖 Python Documentation](.docs/python.md) |
 
