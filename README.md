@@ -6,9 +6,9 @@ This repository contains implementations of a simple web server in various progr
 
 ## Documentation
 
-Detailed documentation for each language implementation can be found in the `docs/` folder:
+Detailed documentation for each language implementation can be found in the `.docs/` folder:
 
-- 📖 [C Documentation](docs/c.md) - Complete implementation guide
+- 📖 [C Documentation](.docs/c.md) - Complete implementation guide
 
 
 ## Documentation Structure
@@ -53,7 +53,7 @@ When adding a new language implementation:
 
 1. Create a subdirectory for the language
 2. Implement all standard features
-3. Create documentation in `docs/[language].md`
+3. Create documentation in `.docs/[language].md`
 4. Update this README with the new language entry
 5. Ensure cross-platform compatibility where possible
 6. Follow the established API response format
