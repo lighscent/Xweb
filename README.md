@@ -1,4 +1,4 @@
-# XWeb - Multi-Language Web Server Collection
+# Xweb - Multi-Language Web Server Collection
 
 ## Overview
 
