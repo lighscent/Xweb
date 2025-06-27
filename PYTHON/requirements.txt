@@ -1,0 +1,9 @@
+# Python Web Server - No external dependencies required
+# This server uses only Python standard library modules
+
+# For development and testing (optional):
+# requests>=2.28.0  # For testing API endpoints
+# pytest>=7.0.0     # For unit testing
+
+# Python version requirement
+# python>=3.7
