@@ -137,6 +137,20 @@ gradle-app.setting
 !gradle-wrapper.jar
 !gradle-wrapper.properties
 
+# Go specific files
+*.exe
+webserver
+go.sum
+vendor/
+
+# Go build and test files
+*.test
+*.out
+*.prof
+
+# Go module cache
+go.mod.backup
+
 # IDE files
 .idea/
 *.iml
