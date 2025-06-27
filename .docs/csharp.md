@@ -38,7 +38,7 @@ dotnet build -c Release
 dotnet run
 
 # Or run the built executable
-dotnet bin/Debug/net6.0/WebServer.dll
+dotnet bin/Debug/net8.0/WebServer.dll
 
 # Run in release mode
 dotnet run -c Release
@@ -53,7 +53,7 @@ dotnet run -c Release
 - HTTP/1.1 server on port 8080
 - Async/await programming model
 - Built-in JSON serialization with System.Text.Json
-- Cross-platform compatibility (.NET 6+)
+- Cross-platform compatibility (.NET 8+)
 - Static HTML page with server info
 - JSON API endpoint with typed responses
 - Real-time browser information display
@@ -157,14 +157,14 @@ var platform = Environment.OSVersion.Platform switch
 ```bash
 # Install .NET SDK
 # Windows
-winget install Microsoft.DotNet.SDK.6
+winget install Microsoft.DotNet.SDK.8
 
 # macOS
 brew install dotnet
 
 # Linux (Ubuntu)
 sudo apt-get update
-sudo apt-get install -y dotnet-sdk-6.0
+sudo apt-get install -y dotnet-sdk-8.0
 ```
 
 ### Port in Use
@@ -304,8 +304,8 @@ dotnet publish -c Release
 
 ### Docker Support
 ```dockerfile
-FROM mcr.microsoft.com/dotnet/runtime:6.0
-COPY bin/Release/net6.0/publish/ App/
+FROM mcr.microsoft.com/dotnet/runtime:8.0
+COPY bin/Release/net8.0/publish/ App/
 WORKDIR /App
 ENTRYPOINT ["dotnet", "WebServer.dll"]
 ```
