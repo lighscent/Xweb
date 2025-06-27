@@ -9,6 +9,7 @@ Simple web server implementations in various programming languages. Each impleme
 | Language | Status | Documentation |
 |----------|--------|---------------|
 | **C** | ✅ Complete | [📖 C Documentation](.docs/c.md) |
+| **C++** | ✅ Complete | [📖 C++ Documentation](.docs/cpp.md) |
 | **JavaScript (Node.js)** | ✅ Complete | [📖 JavaScript Documentation](.docs/js.md) |
 
 ## Features
